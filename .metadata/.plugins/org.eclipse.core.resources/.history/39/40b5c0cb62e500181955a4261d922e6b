@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="index.css">
+<link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="outest_container">
+		<div class="navigator">
+			<ul>
+				<li onclick="Home()">Home</li>
+				<li onclick="Gallary()">Gallary</li>
+				<li onclick="SignUp()">SignUp</li>
+				<li onclick="Login()">Login</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function Home(){
+			console.log("A request to Home has been made");
+		}
+		function Gallary(){
+			console.log("A request to Gallary has been made");
+		}
+		function SignUp(){
+			console.log("A request to SignUp has been made");
+			var xhr = new XMLHttpRequest();
+			
+		}
+		function Login(){
+			console.log("A request to Login has been made");
+		}
+	</script>
+</body>
+</html>

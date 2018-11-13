@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="signUp.css">
+<title>Sign Up</title>
+</head>
+<body>
+	<div class="outest_container">
+			<div class="form_ele">User Name:<input type="text" name="uname"></div>
+			<div class="form_ele">Re-enter name:<input type="text" name="uname_re"></div>
+			<div class="form_ele">User Password:<input type="password" name="upass"></div>
+			<div class="form_ele">Re-enter password:<input type="password" name="upass_re">
+				<img onclick="submit()" src="10.png">
+			</div>
+			<div class="form_ele" id="hidden_status">Hidden Part</div>
+	</div>
+
+	<script type="text/javascript">
+		function submit(){
+			console.log("Submitting");
+			var xhr = new XMLHttpRequest();
+			xhr.open("get",xhr.open("GET","menu.do?keyword="+keyword);
+		}
+	</script>
+	
+</body>
+</html>
